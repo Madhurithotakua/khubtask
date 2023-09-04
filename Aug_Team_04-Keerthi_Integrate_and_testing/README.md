@@ -76,9 +76,11 @@ First thing is to create 2 folders named Frontend and Backend The folder structu
 
 The folder structure is as follows:
 
-The folder structure is as follows:
 
-![Folder Structure](relative/path/to/Aug_Team_04-Keerthi_Integrate_and_testing/projectimages/folderstru.png)
+
+![Folder Structure](Aug_Team_04-Keerthi_Integrate_and_testing/projectimages/folderstru.png)
+
+
  
 
 FRONTEND:
@@ -129,8 +131,10 @@ We run the frontend part using the command npm start
 
 This will be the output that has to be displayed on running the command with connection of backend.
 
+The folder structure is as follows:
 
- ![Alt text](Aug_Team_04-Keerthi_Integrate_and_testing\projectimages\folderstru.png)
+![Folder Structure](Aug_Team_04-Keerthi_Integrate_and_testing/projectimages/frontendpic.png)
+
  
 
 BACKEND:
