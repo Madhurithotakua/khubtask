@@ -1,5 +1,5 @@
-                       August Practice task by IIIT Hyderabad
-                       ======================================
+August Practice task by IIIT Hyderabad
+======================================
 
 Title:  K-Hub Practice React App
 =====
