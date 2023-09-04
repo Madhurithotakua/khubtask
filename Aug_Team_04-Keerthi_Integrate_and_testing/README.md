@@ -1,39 +1,42 @@
-#August Practice task by IIIT Hyderabad
+                       August Practice task by IIIT Hyderabad
+                       ======================================
+
+Title:  K-Hub Practice React App
+=====
 
 
-##Title:  K-Hub Practice React App
+*Car Data Analysis Web Application*
 
 
-Car Data Analysis Web Application
+Description:
+===========
 
-###Project Overview:
-
-###Description:
  This web application is designed to analyze and visualize data related to various car models. It offers statistical insights and an overview of key attributes that can assist both car buyers and enthusiasts in making informed decisions.
 
 This project aims to develop a data ingestion, analytics, and visualization system. The system allows users to input data through a form or an Excel sheet frontend built with React. The entered data is stored in a database for further processing and analysis. A Python script is utilized to perform analytics on the data, and the results are stored back in the database. Finally, the frontend visualizes both the raw data and the output of the Python script.
 
-###Table of Contents
+Table of Contents:
+==================
 
-•	####Procedure
+•	Procedure
 
-•	####Frontend
+•	Frontend
 
-        #####React Js
+        React Js
 
-•	####Backend
+•	Backend
 	
 
-        #####Database
+        Database
 
-        #####Dataset
+        Dataset
 
-•	####Technologies used
+•	Technologies used
 
-•	####Conclusion
+•	Conclusion
 
-###Procedure:
-
+Procedure:
+=========
 
 First thing is to create 2 folders named Frontend and Backend The folder structure is as follows:
 
@@ -73,11 +76,13 @@ First thing is to create 2 folders named Frontend and Backend The folder structu
 
 The folder structure is as follows:
 
-![Alt text](Aug_Team_04-Keerthi_Integrate_and_testing\projectimages\folderstru.png)
+The folder structure is as follows:
 
+![Folder Structure](relative/path/to/Aug_Team_04-Keerthi_Integrate_and_testing/projectimages/folderstru.png)
  
 
-###FRONTEND:
+FRONTEND:
+========
 
 
 1.	Importing React and CSS: The code starts by importing React, which is a JavaScript library for building user interfaces. Additionally, it imports CSS files for styling.
@@ -128,7 +133,8 @@ This will be the output that has to be displayed on running the command with con
  ![Alt text](Aug_Team_04-Keerthi_Integrate_and_testing\projectimages\folderstru.png)
  
 
-###BACKEND:
+BACKEND:
+=======
 
 1.	Import requried   Modules:
 
@@ -203,7 +209,8 @@ o	json : A library for doing operation on json files
  
 The provided code sets up a Flask backend to compute various statistics (mean, maximum, variance, standard deviation, median, minimum) for cars data stored in a MongoDB database. The React frontend fetches this data from the backend and displays it along with barcharts using recharts. This setup allows users to visualize and analyze the characteristics of the dataset.
 
-####DATA SET: Car data
+DATA SET: Car data
+========
 
 1.The dataset comprises various attributes related to car models, encompassing details such as the manufacturer, type, seating capacity, engine displacement, dimensions (length, width, height, wheelbase), cylinder count, fuel type, engine specifications, transmission type, brake systems, drive type, turning radius, fuel tank capacity, boot space, fuel efficiency, emission classification, tire size, available variants, and NCAP safety rating. This comprehensive collection of attributes offers insights into the specifications, performance, and safety features of different car models. Analyzing this data can help in understanding the diversity and characteristics of vehicles, aiding in decision-making for buyers, manufacturers, and automotive enthusiasts.
 
@@ -211,7 +218,8 @@ The provided code sets up a Flask backend to compute various statistics (mean, m
 
  ![Alt Text](Aug_Team_04-Keerthi_Integrate_and_testing\projectimages\datasetpic.jpg)
 
-###Technologies Used:
+Technologies Used:
+==================
 
 Frontend: React.js, Axios, Recharts, FontAwesome, CSS
 
@@ -221,8 +229,8 @@ Data Analysis: Python libraries (NumPy, pandas, statistics)
 
 Version Control: Git
 
-###CONCLUSION:
-
+CONCLUSION:
+==========
 
 The implemented data ingestion, analytics, and visualization system provide users with a convenient way to input data, perform analytics, and visualize the results. The frontend allows for data input
 through a form or Excel sheet uploads, while the backend manages the storage of data in the database. The Python script handles the analytics tasks, and the results are stored back in the database. Finally, the frontend presents the data and analytics output in a visually appealing manner, enabling users to gain insights from the processed information.
