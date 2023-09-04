@@ -1,8 +1,12 @@
         August Practice task by IIIT Hyderabad
+        =======================================
 
 Title:  K-Hub Practice React App
+====================================
+
 Car Data Analysis Web Application
-Project Overview
+Project Overview:
+=================
 Description: This web application is designed to analyze and visualize data related to various car models. It offers statistical insights and an overview of key attributes that can assist both car buyers and enthusiasts in making informed decisions.
 This project aims to develop a data ingestion, analytics, and visualization system. The system allows users to input data through a form or an Excel sheet frontend built with React. The entered data is stored in a database for further processing and analysis. A Python script is utilized to perform analytics on the data, and the results are stored back in the database. Finally, the frontend visualizes both the raw data and the output of the Python script
 Table of Contents
